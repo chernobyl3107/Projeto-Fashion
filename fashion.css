@@ -1,0 +1,74 @@
+< !--css projeto Fashion-->
+body {
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+}
+
+.topo {
+      background-image: url(topo.jpg);
+      height: 700px;
+      background-size: cover;
+}
+nav{ background-color: #170C50;
+     padding: 10px; 
+
+}
+li {float: right;
+    color: aqua; 
+    display: inline-block;
+    margin-right: 15px;
+    text-transform: uppercase; 
+    padding: 12px; 
+}
+a{text-decoration: none;
+  color:#425564;
+  letter-spacing: 5px;
+  transition: 0.5s;
+}
+a:hover{color: white;
+
+}
+.lipsum { text-align: center;
+}
+.lipsum h1 { font-family:Roland;
+}
+.card {display: inline-block;
+       padding: 10px;
+       margin-top: 10px;      
+}
+.card h3 {color:#4A4A4A;
+}
+.card p {color: gray;}
+.textimg {background-image:url(bg_detalhe.png);
+          height: 400px;
+          width: 990px;
+          margin-left: 200px;
+          background-size: cover;
+}
+.textimg img {background-size: cover;
+              height: 360px;    
+}
+.textimg h1 {color: white;
+             font-family: Book Antiqua;
+             font-size: 40px;
+             padding: 20px;
+             text-align: left;
+             margin-left: 80px;
+}
+.textimg p {color: white;
+            text-align: left;
+            margin-left: 100px;
+}
+.call h1 {color:#170C50;
+          padding: 10px;  
+}
+.rodape { background-color: #170C50;
+          display: inline-block;
+          width: 70.5%;
+          margin-top: 30px;
+          margin-left: 210px;
+}
+.rodape p {text-align: center;
+           color: darkgrey; 
+}
